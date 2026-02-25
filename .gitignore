@@ -1,0 +1,26 @@
+# This is a comment, blank lines are ignored
+
+# Ignore all files ending with .zip in any directory
+*.zip
+
+*.docx
+
+*.txt
+
+*.xlsx
+
+# Ignore a specific file
+Group_Project_Description.pdf
+
+
+# Common operating system files to ignore (macOS, Windows)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Common programming language specific examples
+# Python: ignore byte-compiled files and virtual environments
+__pycache__/
+*.pyc
+.venv/
+env/
